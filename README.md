@@ -75,7 +75,9 @@ source install/setup.bash
 ```bash
 ros2 launch mobile_robot gazebo_model.launch.py
 ```
-
+....
+bash
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ---
 
 ## Screenshots
